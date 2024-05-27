@@ -46,6 +46,8 @@ nav ul li a {
 
 nav ul li:hover {
     background-color: rgb(15, 85, 176);
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 #nav {
