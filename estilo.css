@@ -1,0 +1,254 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    font-family: "Helvetica";
+}
+
+header {
+    /* background-color: rgba(13, 117, 208, 0.921);  */
+    
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-image: radial-gradient(700px 500px, yellow, green, red);
+    
+}
+
+
+nav ul li {
+    flex: auto; 
+    font-size: 20px;
+    padding: 20px 5px;
+    font-weight: 700;
+    
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+nav ul li:hover {
+    background-color: rgb(15, 85, 176);
+}
+
+#nav {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.banner {
+    position: relative;
+    top: 60px;
+    background-image: url(Img/banner\ daft\ punk.png);
+    background-size: cover;
+    height: 600px;
+    color: white;
+    text-align: center;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.banner h4 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(161, 113, 113);
+}
+
+.banner h5{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(149, 164, 177);
+}
+
+.article, h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+u {
+    color: rgb(81, 29, 88);
+}
+
+.article, h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.Historia {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(142, 168, 169);
+}
+
+.Historia {
+    background: rgb(226, 223, 220);
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+    padding: 40px;
+    box-shadow: 1px 1px 19px #a7a2a2;
+}
+
+
+.intro-shop  {
+    text-align: center;
+    margin-top: 45px;
+    padding: 25px;  
+}
+
+h2.intro-shop {
+    font-weight: 900;
+}
+
+.shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.shop-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.bonus {
+    margin-top: 60px;
+}  
+
+.repro {
+    width: 750px;
+    color: #3742b8;
+    border: 8px solid #cd8aba;
+    margin-top: 60px;
+    
+}
+
+.card {
+    border: 1px solid #ece5e5;
+    width: 350px;
+    margin: 0 15px;
+    border-radius: 4px;
+    box-shadow: #0e1025;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 19px #a7a2a2
+}
+
+
+/* FOOTER */
+
+
+
+footer{
+    background-color: black;
+    height: 14rem;
+}
+
+.footer-contenedor {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.social-icons a i {
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+}
+
+.social-icons a:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.social-icons a:hover {
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.nav-footer {
+    margin: 30px 0;
+
+}
+
+.nav-footer ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-footer ul li a {
+    color: aliceblue;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.nav-footer ul li a:hover {
+    opacity: 1;
+}
+
+.nav-footer p {
+    color: aliceblue;
+    opacity: 0.7;
+    font-weight: 400px;
+    margin: 0 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1rem;
+}
