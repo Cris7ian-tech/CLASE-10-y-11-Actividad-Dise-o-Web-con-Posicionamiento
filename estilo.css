@@ -153,6 +153,16 @@ h2.intro-shop {
     margin-top: 60px;
 }
 
+.card {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 .bonus {
     margin-top: 60px;
 }  
