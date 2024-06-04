@@ -1,4 +1,4 @@
-.card {
+/* .card {
     cursor: pointer;
     transition: 0.5s;
 }
@@ -6,4 +6,9 @@
 .card:hover {
     transform: scale(1.1);
     transition: 0.5s;
+} */
+
+img .banner-dos {
+    width: 50px;
+    height: 25px;
 }
