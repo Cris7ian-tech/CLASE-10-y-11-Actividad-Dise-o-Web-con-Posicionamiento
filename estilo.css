@@ -335,21 +335,21 @@ audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
 }
-.container-audio .colum1:nth-of-type(1) .row {
+.container-audio .colum1:nth-of-type(21) .row {
     -webkit-animation-delay: 3.99s;
     animation-delay: 3.99s;
 }
-.container-audio .colum1:nth-of-type(2) .row {
+.container-audio .colum1:nth-of-type(22) .row {
     -webkit-animation-delay: 3.80s;
     animation-delay: 3.80s;
 }
-.container-audio .colum1:nth-of-type(3) .row {
+.container-audio .colum1:nth-of-type(23) .row {
     -webkit-animation-delay: 3.70s;
     animation-delay: 3.70s;
 }
 @-webkit-keyframes Rofa {
     0% {
-        height: 0%;
+        height: 10%;
         -webkit-transform: translatey(0);
         transform: translatey(0);
         background-color: yellow;
